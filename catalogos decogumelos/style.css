@@ -1,8 +1,40 @@
 css
 
+
+html {scroll-behavior: smooth;}
+
+html {
+  scroll-behavior: smooth; /* Rolagem suave ao clicar nos links */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333333;
+  background-color: #f8f9fa;
+}
+
+
+/* Menu de Navegação Superior */
+.menu-navegacao {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil inferior */
+  display: flex;
+  justify-content: center;
+  gap: 30px; /* Espaço entre os links */
+  padding: 15px 0;
+  z-index: 1000;
+}
+
+
+
+
+
+
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffd17d;
+    background-color: #fff1d7;
     margin: 0;
     padding: 20px;
     line-height: 1.6;
